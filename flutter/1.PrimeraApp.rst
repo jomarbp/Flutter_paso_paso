@@ -1,0 +1,49 @@
+⌚​🤖​✔️​FORMULARIO FLUTTER ⌚​🤖​✔️​:
+==============================================
+
+**PLUGGINS A INSTALAR**
+
+1. TypeScript Importer
+2. Flutter
+3. Awesome Flutter Snippets
+4. Dart
+
+
+1. en el archivo **formularioregistro.dart**, agregar la siguiente codificación:
+
+
+.. image:: parte2.png
+   :height: 40
+   :width: 90
+   :scale: 10
+   :alt: JoeAI
+
+.. image:: parte3.png
+   :height: 40
+   :width: 90
+   :scale: 10
+   :alt: JoeAI
+
+.. image:: parte4.png
+   :height: 40
+   :width: 90
+   :scale: 10
+   :alt: JoeAI
+
+.. image:: parte1.png
+   :height: 40
+   :width: 90
+   :scale: 10
+   :alt: JoeAI
+
+2. Crear un archivo llamado **dato.dart** en la misma carpeta **registrar**:
+
+.. image:: datos.png
+   :height: 40
+   :width: 90
+   :scale: 10
+   :alt: JoeAI
+
+** EJECUCIÓN **
+
+Al ingresar los datos en el formulario y dar clic en el botón, este llevará a otra interfaz y mostrará los datos ingresados.
