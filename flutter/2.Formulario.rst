@@ -5,73 +5,73 @@ crear un script nuevo **RegistroPage.dart**
 
 1. agregar la siguiente codificación:
 
-.. image:: cap1.png
+.. image:: img/cap1.png
    :height: 40
    :width: 90
    :scale: 10
    :alt: JoeAI
 
-.. image:: cap2.png
+.. image:: img/cap2.png
    :height: 40
    :width: 90
    :scale: 10
    :alt: JoeAI
 
-.. image:: cap3.png
+.. image:: img/cap3.png
    :height: 40
    :width: 90
    :scale: 10
    :alt: JoeAI
 
-.. image:: cap4.png
+.. image:: img/cap4.png
    :height: 40
    :width: 90
    :scale: 10
    :alt: JoeAI
 
-.. image:: cap5.png
+.. image:: img/cap5.png
    :height: 40
    :width: 90
    :scale: 10
    :alt: JoeAI
 
-.. image:: cap6.png
+.. image:: img/cap6.png
    :height: 40
    :width: 90
    :scale: 10
    :alt: JoeAI
 
-.. image:: cap7.png
+.. image:: img/cap7.png
    :height: 40
    :width: 90
    :scale: 10
    :alt: JoeAI
 
-.. image:: cap8.png
+.. image:: img/cap8.png
    :height: 40
    :width: 90
    :scale: 10
    :alt: JoeAI
 
-.. image:: cap9.png
+.. image:: img/cap9.png
    :height: 40
    :width: 90
    :scale: 10
    :alt: JoeAI
 
-.. image:: cap10.png
+.. image:: img/cap10.png
    :height: 40
    :width: 90
    :scale: 10
    :alt: JoeAI
 
-.. image:: cap11.png
+.. image:: img/cap11.png
    :height: 40
    :width: 90
    :scale: 10
    :alt: JoeAI
 
-.. image:: cap12.png
+.. image:: img/cap12.png
    :height: 40
    :width: 90
    :scale: 10
@@ -79,13 +79,13 @@ crear un script nuevo **RegistroPage.dart**
 
 luego en el archivo **datos.dart**
 
-.. image:: cap13.png
+.. image:: img/cap13.png
    :height: 40
    :width: 90
    :scale: 10
    :alt: JoeAI
 
-.. image:: cap14.png
+.. image:: img/cap14.png
    :height: 40
    :width: 90
    :scale: 10
