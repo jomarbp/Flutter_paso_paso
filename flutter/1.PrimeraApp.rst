@@ -12,25 +12,25 @@
 1. en el archivo **formularioregistro.dart**, agregar la siguiente codificación:
 
 
-.. image:: parte2.png
+.. image:: img/parte2.png
    :height: 40
    :width: 90
    :scale: 10
    :alt: JoeAI
 
-.. image:: parte3.png
+.. image:: img/parte3.png
    :height: 40
    :width: 90
    :scale: 10
    :alt: JoeAI
 
-.. image:: parte4.png
+.. image:: img/parte4.png
    :height: 40
    :width: 90
    :scale: 10
    :alt: JoeAI
 
-.. image:: parte1.png
+.. image:: img/parte1.png
    :height: 40
    :width: 90
    :scale: 10
@@ -38,7 +38,7 @@
 
 2. Crear un archivo llamado **dato.dart** en la misma carpeta **registrar**:
 
-.. image:: datos.png
+.. image:: img/datos.png
    :height: 40
    :width: 90
    :scale: 10
