@@ -37,7 +37,7 @@ Linea::
   $conn->close();
   ?>
 
-2. **En el archivo LoginPage.dart; actualizar el código... que quede así*
+**2. En el archivo LoginPage.dart; actualizar el código... que quede así*
 
 .. image:: img/loginPage_1.png
    :height: 40
