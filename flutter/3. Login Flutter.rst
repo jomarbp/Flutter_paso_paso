@@ -1,6 +1,6 @@
 LOGIN FLUTTER
 
-**En el proyecto API que tenemos en la ruta C://Xampp/htdocs/api_flutter, deberá crear el fichero de nombre "login.php"**
+**1. En el proyecto API que tenemos en la ruta C://Xampp/htdocs/api_flutter, deberá crear el fichero de nombre "login.php"**
 Escribir el comando: 
 
 Linea::
@@ -36,4 +36,36 @@ Linea::
   
   $conn->close();
   ?>
+
+2. **En el archivo LoginPage.dart; actualizar el código... que quede así*
+
+.. image:: img/loginPage_1.png
+   :height: 40
+   :width: 90
+   :scale: 10
+   :alt: JoeAI
+
+.. image:: img/loginPage_2.png
+   :height: 40
+   :width: 90
+   :scale: 10
+   :alt: JoeAI
+
+.. image:: img/loginPage_3.png
+   :height: 45
+   :width: 90
+   :scale: 10
+   :alt: JoeAI
+
+.. image:: img/loginPage_4.png
+   :height: 45
+   :width: 90
+   :scale: 10
+   :alt: JoeAI
+
+.. image:: img/loginPage_5.png
+   :height: 45
+   :width: 90
+   :scale: 10
+   :alt: JoeAI
 
