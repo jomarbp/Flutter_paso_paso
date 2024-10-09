@@ -69,3 +69,30 @@ Linea::
    :scale: 10
    :alt: JoeAI
 
+3. Crear el archivo **Dashboard.dart**
+
+.. image:: img/Dashboard1.png
+   :height: 40
+   :width: 90
+   :scale: 10
+   :alt: JoeAI
+
+.. image:: img/Dashboard2.png
+   :height: 40
+   :width: 90
+   :scale: 10
+   :alt: JoeAI
+
+.. image:: img/Dashboard3.png
+   :height: 45
+   :width: 90
+   :scale: 10
+   :alt: JoeAI
+
+3. Actualizar el archivo **main.dart**
+
+.. image:: img/Main.dart_actualizado.png
+   :height: 45
+   :width: 90
+   :scale: 10
+   :alt: JoeAI
