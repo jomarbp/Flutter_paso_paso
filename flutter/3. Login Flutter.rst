@@ -71,6 +71,12 @@ Linea::
 
 3. Crear el archivo **Dashboard.dart**
 
+Instalar desde el "command Prompt", el siguiente comando:
+
+Linea::
+
+  flutter pub add shared_preferences
+
 .. image:: img/Dashboard1.png
    :height: 40
    :width: 90
