@@ -97,4 +97,4 @@ Linea::
    :scale: 10
    :alt: JoeAI
 
-**Al ejecutar el archivo main.dart, deberá primero iniciar el loginPage.dart, y este trabajando con las credenciales correctas que están en nuestra tabla, deberá dar acceso director y llevarnos automaticamente al archivo Dashboard.dart**
+**Al ejecutar el archivo main.dart, deberá primero iniciar el loginPage.dart, ingresar DATOS REALES DE LA TABLA usuarios.... Al ingresar las credenciales correctas, el app les dará acceso al Dashboard.dart**
