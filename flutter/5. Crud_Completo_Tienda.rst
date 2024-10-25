@@ -1770,3 +1770,33 @@ Linea::
         );
       }
     }
+
+7.  *pubspec.yaml**
+
+Linea::
+
+    name: apptienda
+    description: "A new Flutter project."
+    publish_to: 'none'
+    version: 1.0.0+1
+    
+    environment:
+      sdk: ^3.5.1
+    
+    dependencies:
+      flutter:
+        sdk: flutter
+      http: ^0.13.3
+      cupertino_icons: ^1.0.8
+      google_fonts: ^4.0.4  # Dependencias versión
+    
+    dev_dependencies:
+      flutter_test:
+        sdk: flutter
+      flutter_lints: ^4.0.0
+    
+    flutter:
+      uses-material-design: true
+      
+      assets:
+        - assets/images/  # Aquí irán las imágenes
