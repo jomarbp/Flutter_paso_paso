@@ -33,37 +33,58 @@ Linea::
       }
     }
 
-**2. En el archivo LoginPage.dart; actualizar el código... que quede así**
+**2. producto.dart**
 
-.. image:: img/loginPage_1.png
-   :height: 40
-   :width: 90
-   :scale: 10
-   :alt: JoeAI
-
-.. image:: img/loginPage_2.png
-   :height: 40
-   :width: 90
-   :scale: 10
-   :alt: JoeAI
-
-.. image:: img/loginPage_3.png
-   :height: 45
-   :width: 90
-   :scale: 10
-   :alt: JoeAI
-
-.. image:: img/loginPage_4.png
-   :height: 45
-   :width: 90
-   :scale: 10
-   :alt: JoeAI
-
-.. image:: img/loginPage_5.png
-   :height: 45
-   :width: 90
-   :scale: 10
-   :alt: JoeAI
+    class Producto {
+      final int? id;
+      final String nombre;
+      final String descripcion;
+      final double precio;
+      final int stock;
+      final int categoriaId;
+      final String? imagenUrl;
+      final bool estado;
+      final String? categoriaNombre;
+    
+      Producto({
+        this.id,
+        required this.nombre,
+        required this.descripcion,
+        required this.precio,
+        required this.stock,
+        required this.categoriaId,
+        this.imagenUrl,
+        this.estado = true,
+        this.categoriaNombre,
+      });
+    
+      factory Producto.fromJson(Map<String, dynamic> json) {
+        return Producto(
+          id: int.parse(json['id'].toString()),
+          nombre: json['nombre'],
+          descripcion: json['descripcion'],
+          precio: double.parse(json['precio'].toString()),
+          stock: int.parse(json['stock'].toString()),
+          categoriaId: int.parse(json['categoria_id'].toString()),
+          imagenUrl: json['imagen_url'],
+          estado: json['estado'] == '1' || json['estado'] == true,
+          categoriaNombre: json['categoria_nombre'],
+        );
+      }
+    
+      Map<String, dynamic> toJson() {
+        return {
+          'id': id,
+          'nombre': nombre,
+          'descripcion': descripcion,
+          'precio': precio,
+          'stock': stock,
+          'categoria_id': categoriaId,
+          'imagen_url': imagenUrl,
+          'estado': estado,
+        };
+      }
+    }
 
 3. Crear el archivo **Dashboard.dart**
 
