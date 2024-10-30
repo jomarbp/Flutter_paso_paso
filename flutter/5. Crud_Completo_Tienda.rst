@@ -1800,3 +1800,13 @@ Linea::
       
       assets:
         - assets/images/  # Aquí irán las imágenes
+
+8.  Para poder visualizar las imágenes dentro de los TextView en Flutter, deberá crear un nuevo fichero de nombre .htaccess, dentro de la carpeta raiz.
+
+Linea::
+
+    <IfModule mod_headers.c>
+        Header set Access-Control-Allow-Origin "*"
+        Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+        Header set Access-Control-Allow-Headers "Origin, X-Requested-With, Content-Type, Accept, Authorization"
+    </IfModule>
