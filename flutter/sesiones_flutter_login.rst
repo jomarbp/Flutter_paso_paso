@@ -560,7 +560,7 @@ Linea::
     }
   }
 
-3. **C:\xampp\htdocs\tienda\api_tienda.php**
+3. **C:/xampp/htdocs/tienda/api_tienda.php**
 
 Linea::
 
