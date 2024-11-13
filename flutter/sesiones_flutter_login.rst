@@ -1310,23 +1310,24 @@ Linea::
 4.  **Tabla: usuarios**
 
 Linea::
+
   CREATE TABLE `usuarios` (
-    `id` int(11) NOT NULL AUTO_INCREMENT,
-    `nombre` varchar(100) NOT NULL,
-    `email` varchar(100) NOT NULL,
-    `password` varchar(255) NOT NULL,
-    `rol` enum('admin','vendedor') NOT NULL DEFAULT 'vendedor',
-    `estado` tinyint(1) DEFAULT 1,
-    `ultimo_acceso` timestamp NULL DEFAULT NULL,
-    `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
-    `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
-    PRIMARY KEY (`id`),
-    UNIQUE KEY `email` (`email`)
-  ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-  
-  /*Data for the table `usuarios` */
-  
-  insert  into `usuarios`(`id`,`nombre`,`email`,`password`,`rol`,`estado`,`ultimo_acceso`,`created_at`,`updated_at`) values 
-  (1,'Administrador','admin@example.com','$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi','admin',1,'2024-11-13 14:26:27','2024-11-06 09:05:30','2024-11-13 14:26:27'),
-  (2,'José Aradiel','josea@gmail.com','$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi','vendedor',1,'2024-11-13 14:14:25','2024-11-06 09:31:58','2024-11-13 14:14:25'),
-  (3,'Gioirgina Hurtado','ghurtado@gmail.com','$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi','vendedor',1,'2024-11-13 14:11:19','2024-11-06 09:49:08','2024-11-13 14:11:19');
+      `id` int(11) NOT NULL AUTO_INCREMENT,
+      `nombre` varchar(100) NOT NULL,
+      `email` varchar(100) NOT NULL,
+      `password` varchar(255) NOT NULL,
+      `rol` enum('admin','vendedor') NOT NULL DEFAULT 'vendedor',
+      `estado` tinyint(1) DEFAULT 1,
+      `ultimo_acceso` timestamp NULL DEFAULT NULL,
+      `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+      `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+      PRIMARY KEY (`id`),
+      UNIQUE KEY `email` (`email`)
+    ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+    
+    /*Data for the table `usuarios` */
+    
+    insert  into `usuarios`(`id`,`nombre`,`email`,`password`,`rol`,`estado`,`ultimo_acceso`,`created_at`,`updated_at`) values 
+    (1,'Administrador','admin@example.com','$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi','admin',1,'2024-11-13 14:26:27','2024-11-06 09:05:30','2024-11-13 14:26:27'),
+    (2,'José Aradiel','josea@gmail.com','$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi','vendedor',1,'2024-11-13 14:14:25','2024-11-06 09:31:58','2024-11-13 14:14:25'),
+    (3,'Gioirgina Hurtado','ghurtado@gmail.com','$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi','vendedor',1,'2024-11-13 14:11:19','2024-11-06 09:49:08','2024-11-13 14:11:19');
